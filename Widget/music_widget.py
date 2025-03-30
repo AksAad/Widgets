@@ -297,8 +297,8 @@ class MusicWidget(BaseWidget):
             
             # Initialize auth manager with proper scopes
             auth_manager = SpotifyOAuth(
-                client_id='eb995ddf58124b05aac7e9f04bdd161c',
-                client_secret='b0fd075b00c344cbbac143834e21c087',
+                client_id='MAKE A CLIENT ID ON SPOTIFY DEVELOPER (STEP 1 SELECT OPTION TO MAKE AN APP THEN PROVIDE LOCALHOST CALL BACK THEN COPY PASTE THE IDS',
+                client_secret=' ENter_your_id_here',
                 redirect_uri='http://localhost:8888/callback',
                 scope='user-read-currently-playing user-read-playback-state',
                 open_browser=True,  # Open browser automatically
